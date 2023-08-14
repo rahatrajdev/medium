@@ -29,6 +29,23 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				
+				<configuration>
+				      <cloudHubDeployment>
+	                 <username>rrajdev</username>		
+	                 <environment>Sandbox</environment>	
+	                 <workers>1</workers>
+	                 <workerType>Micro</workerType>
+	                 <applicationName>medium-5</applicationName>
+	                 <password>Mulecc@12345</password>
+	                 <muleVersion>4.4.0</muleVersion>
+	                 <objectStoreV2>true</objectStoreV2>
+	                 
+				</cloudHubDeployment>
+				</configuration>
+				
+				
+				
 			</plugin>
 		</plugins>
 	</build>
