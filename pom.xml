@@ -42,7 +42,7 @@
 	                 <objectStoreV2>true</objectStoreV2>
 	                 
 	                 
-				</cloudHubDeployment>
+				      </cloudHubDeployment>
 				</configuration>
 				
 				
