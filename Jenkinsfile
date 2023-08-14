@@ -8,7 +8,7 @@ pipeline
  
  
   stage('Deploy Application to MuleSoft CloudHub'){
-  bat 'mvn cleaSn deploy -DmuleDeploy'
+  bat 'mvn clean deploy -DmuleDeploy'
   }
  
 }
